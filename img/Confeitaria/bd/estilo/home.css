@@ -1,0 +1,76 @@
+body{
+	background-image: url(img/fundo-home.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    overflow: hidden;
+}
+/*----------Botões------------*/
+
+@font-face {
+    font-family:'Bodoni';
+	src: url('fontes/BodoniFLF-Roman.ttf');
+ }
+
+.lg-btn{
+	float:right;
+	margin-right:250px;
+	margin-top:160px;	
+}
+
+.btn{
+ width:290px;
+ height:60px;
+ border-radius: 20px;
+ border-color:#CC5C79;
+ background-color:#CC5C79;
+ 
+ font-family:"Bodoni";
+ font-size: 30px ;
+ color:  #F2E7D4 ;
+ text-shadow: #862633 0.1em 0.1em 0.3em;
+}
+
+.btn:focus{
+outline: none;
+box-shadow: 0px 0px 5px #CC5C79;
+border-color: #CC5C79;		
+}
+/*----------Bem-Vindo------------*/
+@font-face {
+    font-family: 'Shelter';
+	src: url('fontes/Shelter.ttf');
+ }
+.legenda{
+	top:410px;
+	position: fixed;
+    left: 157px;
+	
+	font-family:"Shelter";
+	font-size: 70px ;
+	color:#CC5C79 ;
+	text-shadow:#F4C4C5 0.1em 0.1em 0.2em
+}
+.logo{
+top: 80px;
+left: 170px;
+position: fixed;
+height: 300px;
+width: 300px;	
+}
+
+@font-face {
+    font-family: 'Brusher';
+	src: url('fontes/Brusher.ttf');
+ }
+.nome-user{
+top: 490px;
+left: 170px;
+position: fixed;
+height: 300px;
+width: 300px;
+
+font-family:"Brusher";
+font-size: 50px;	
+color:#B05F6D;	
+text-shadow:#F4C4C5 0.1em 0.1em 0.2em
+}

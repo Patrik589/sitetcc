@@ -1,0 +1,148 @@
+body{
+background-image: url(img/fundo-cad.png); 
+background-size:1450px;
+position:fixed;
+}
+@font-face {
+    font-family:'Shelter';
+    src: url('fontes/Shelter.ttf');
+    }
+   .titulo{
+    font-family:'Shelter';
+    font-size:75px;
+    color:#862633;
+    margin-top: 25px ;
+    margin-left:460px ;
+   }
+ /* --------Formulário--------- */
+ .div1{
+ position:fixed;
+ left:420px;
+ top:220px;
+ }
+
+ @font-face {
+    font-family:'Bodoni';
+	src: url('fontes/BodoniFLF-Roman.ttf');
+ }
+.legendas{
+    font-family:'Bodoni';
+    font-size:37px;	
+    color:#CC5C79;  
+}
+
+.text-box-usuario{
+	width:360px;
+	height:30px;
+	border-radius: 12px;
+	border-color: white;
+	box-shadow: 1px 1px 4px #B05F6D;
+}
+.text-box-usuario:focus{
+	outline: none;
+	box-shadow: 0px 0px 5px #CC5C79;
+	border-color: #CC5C79;	
+	}
+    .text-box-senha{
+        width:385px;
+        height:30px;
+        border-radius: 12px;
+        border-color: white;
+        box-shadow: 1px 1px 4px #B05F6D;
+    }
+    .text-box-senha:focus{
+        outline: none;
+        box-shadow: 0px 0px 5px #CC5C79;
+        border-color: #CC5C79;	
+        }
+ /* ----------------Botões--------------------- */
+  .btn-voltar{
+     position:fixed;
+     top:15px;
+     left:15px;
+       
+        width:40px;
+        height:40px;
+        border-radius: 20px;
+        background-color:#862633 ;
+        color:transparent;
+       
+        background-image:url(img/btn-voltar.png);
+        background-repeat:no-repeat ;
+        background-size:25px ;
+        background-position-x: 5px;
+        background-position-y: 5px;
+       }
+       .btn-voltar:focus{
+           outline: none;
+           box-shadow: 0px 0px 5px #CC5C79;
+           border-color: #CC5C79;		
+           }
+           .btn-limpar{
+            left:540px;
+            bottom:205px;
+            position:fixed;
+            
+            width:40px;
+            height:40px;
+            border-radius: 20px;
+            background-color:#862633 ;
+            color:#F2E7D4;
+            font-family:Apple Chancery, cursive;
+            font-size:20px ;
+            }
+            .btn-limpar:focus{
+                outline: none;
+                box-shadow: 0px 0px 5px #CC5C79;
+                border-color: #862633;		
+                }
+            
+            
+            .btn-listar{
+            top:15px;
+            right:15px;
+            position:fixed;
+            
+            width:40px;
+            height:40px;
+            border-radius: 20px;
+            color:transparent;
+            
+            background-image: url(img/eyee.png);
+            background-repeat:no-repeat ;
+            background-size:30px ;
+            background-color:#862633 ;
+            background-position-x: 3px;
+            background-position-y: 3px;
+            }
+            .btn-listar:focus{
+                outline: none;
+                box-shadow: 0px 0px 5px #CC5C79;
+                border-color: #862633;		
+                }
+                @font-face {
+                    font-family:'Bodoni';
+                    src: url('fonte/BodoniFLF-Roman.ttf');
+                 }
+                
+                 .btn-cad{
+                    font-family:'Bodoni';
+                    font-size:35px;
+                    background-color:#862633;
+                    color:#F2E7D4;
+                
+                    width:250px;
+                    height:55px;
+                    border-radius: 20px;
+                    border-color:#862633;
+                
+                    position:fixed;
+                    left: 620px ;
+                    bottom: 200px;
+                }
+                
+                    .btn-cad:focus{
+                        outline: none;
+                        box-shadow: 0px 0px 5px #CC5C79;
+                        border-color: #CC5C79;		
+                        }

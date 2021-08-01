@@ -1,0 +1,68 @@
+body{
+    background-color: #E89E9F;
+    }
+
+ @font-face {
+        font-family:'Brusher';
+        src: url('fontes/Brusher.ttf');
+        }
+
+       .titulo{
+        font-family:'Brusher';
+        font-size:85px;
+        color:#862633;
+        margin-top:25px ;
+        text-shadow:#CC5C79 0.1em 0.1em 0.4em;
+       }
+/* -----------Botões----------- */
+.btn-voltar{
+    position:fixed;
+    top:15px;
+    left:15px;
+      
+       width:40px;
+       height:40px;
+       border-radius: 20px;
+       background-color:#862633 ;
+       color:transparent;
+      
+       background-image:url(img/btn-voltar.png);
+       background-repeat:no-repeat ;
+       background-size:25px ;
+       background-position-x: 5px;
+       background-position-y: 5px;
+      }
+      .btn-voltar:focus{
+          outline: none;
+          box-shadow: 0px 0px 5px #CC5C79;
+          border-color: #CC5C79;		
+          }
+/*------Lista De Usuários-------*/
+table{
+    background-color:#ffb0b2;
+    border-color: #ce7f80;
+    border-radius:8px;
+    width: 820px;
+    height:40px;
+}
+
+td{
+font-family:Georgia;
+color:#862633;
+font-size:30px;
+}
+
+.deletar{
+    font-family:Georgia;
+    color:transparent;
+    font-size:25px;
+
+    background-image:url(img/deletar.png);
+    background-repeat:no-repeat ;
+    background-size:26px;
+    background-position-x:10px;
+    }   
+
+.deletar2{
+    width:30px;
+}
